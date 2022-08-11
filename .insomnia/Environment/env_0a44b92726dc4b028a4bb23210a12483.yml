@@ -1,0 +1,18 @@
+_id: env_0a44b92726dc4b028a4bb23210a12483
+type: Environment
+parentId: wrk_fc6c7c44d1374e5d9653cdfdb19eae10
+modified: 1593810563959
+created: 1591048917203
+name: Base Environment
+data:
+  base_url: https://api.automatrixdev.com/
+  token: qhOS0zNW2og5OTFlY2VlOS1iNDEzLTRlMDItOGUwMC0zMGVlZjFhOGRiZjMzOTU4Nw==
+  url: https://dev-api-graphql.automatrix.com/graphql
+dataPropertyOrder:
+  "&":
+    - token
+    - base_url
+    - url
+color: null
+isPrivate: false
+metaSortKey: 1570640780190

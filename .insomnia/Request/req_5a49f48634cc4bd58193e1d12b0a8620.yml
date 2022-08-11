@@ -1,0 +1,52 @@
+_id: req_5a49f48634cc4bd58193e1d12b0a8620
+type: Request
+parentId: fld_0c1b74eaa2874bfea11e65e52eda7fb0
+modified: 1591048917284
+created: 1591048917284
+url: "{{base_url}}/api/loans/payments/roll"
+name: Make Roll Payment - Downpayment
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_fcaae9d39814442397efa88a9454c910
+    multiline: application/json
+    name: setting
+    type: text
+    value: |-
+      {
+        "TradePayOff":"0.00",
+        "UserFields":"597.0",
+        "TradeInAllowance":"0.00",
+        "FinanceAmount":"10652.32",
+        "Term":"130",
+        "PaymentAmount":"103",
+        "DocStampPercentage":"0.0000",
+        "Fees":"1275.85",
+        "CompoundingDays":"365",
+        "ProductAmounts":"4846.0",
+        "SalesTax":"498.32",
+        "SalesPrice":"14600.0",
+        "Taxes":"1354.98",
+        "FirstPaymentDate":"2019-10-23",
+        "SalesTaxDeferred":"false",
+        "Frequency":"Weekly",
+        "Rebates":"0.00",
+        "InterestRate":"18.99",
+        "LoanDate":"2019-10-16"
+      }
+  - id: pair_b53a78fa71cb4dc88bab11808874608f
+    name: type
+    value: downpayment
+headers: []
+authentication:
+  token: "{{token}}"
+  type: bearer
+metaSortKey: -1572956654257.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

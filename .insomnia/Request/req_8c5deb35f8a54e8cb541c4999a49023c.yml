@@ -1,0 +1,71 @@
+_id: req_8c5deb35f8a54e8cb541c4999a49023c
+type: Request
+parentId: fld_0c1b74eaa2874bfea11e65e52eda7fb0
+modified: 1591048917285
+created: 1591048917285
+url: "{{base_url}}/api/loans/payments/odd"
+name: Get Odd Payment Information
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_fcaae9d39814442397efa88a9454c910
+    name: interestRate
+    value: "12"
+  - id: pair_e70a5bf5b48046e0907d48138db12f5a
+    name: loanDate
+    value: 11/07/2019
+  - id: pair_546c8c4dcc6640e499f0a5d76b4a42cc
+    name: frequency
+    value: Monthly
+  - id: pair_ade451471ae14be6be5f43d71c2d5c3d
+    name: financeAmount
+    value: "20000"
+  - id: pair_1b8186cd6900499293913a7380c03c55
+    name: firstPaymentDate
+    value: 12/08/2019
+  - id: pair_9e20b701cdc54210ba5b3e6ce9e5a1bd
+    name: paymentAmount
+    value: "120"
+  - id: pair_7fcf6fad2e05457f9362eb79509f56e3
+    name: discount
+    value: "0"
+  - id: pair_df6de44cc8d843ffb60fbe6d00beb7bb
+    name: compoundingDays
+    value: "365"
+  - id: pair_e6a47ff7727a46ba89053efa6d59397f
+    name: term
+    value: "55"
+  - id: pair_5aa1e491bd6344a1a1c61fe7bc043c59
+    name: salesTaxDeferred
+    value: "true"
+  - id: pair_526a0507ce3d41a6ab8d94b12f178861
+    name: salesTax
+    value: "1000"
+  - id: pair_f92816730b7f4d30bb10fe954d2dac7e
+    name: cashDownPayment
+    value: "0"
+  - id: pair_7cdf32d98dc24b09b39669b85f0c5f26
+    name: downPayment1
+    value: "0"
+  - id: pair_594883ba4ff0460787792d4de9f822f7
+    name: downPayment2
+    value: "0"
+  - id: pair_395100ef70d5415d9842fd7ca3e5525e
+    name: downPayment3
+    value: "0"
+  - id: pair_0c384a49743e4157ac2b7290cc2c994e
+    name: CountyTaxRate
+    value: "6.5"
+headers: []
+authentication:
+  token: "{{token}}"
+  type: bearer
+metaSortKey: -1572956654207.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

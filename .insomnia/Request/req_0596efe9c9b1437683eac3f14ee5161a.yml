@@ -1,0 +1,29 @@
+_id: req_0596efe9c9b1437683eac3f14ee5161a
+type: Request
+parentId: fld_08866786178b46bfa547c80d66381f11
+modified: 1591048917257
+created: 1591048917257
+url: "{{url}}"
+name: Update Deal Status
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"mutation{\n  setDealContractedStatus(\n    accountNumber:
+    70999\n  )\n}"}'
+parameters: []
+headers:
+  - id: pair_22bd81e22e474e5b82b9852dba83e097
+    name: Content-Type
+    value: application/json
+authentication:
+  token: "{{token}}"
+  type: bearer
+metaSortKey: -1573340843556.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,29 @@
+_id: req_471376fce1054da893500c4138e376e3
+type: Request
+parentId: fld_488ac4dfe340490ca3213a381c23253f
+modified: 1660234712990
+created: 1593273586428
+url: https://dms-graphql-task-37277-deals.envoyproxy.automatrix.com/graphql
+name: getDealStructure
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"query lotList {\n            lotList
+    {\n                lotName\n                lotId\n                displayTagFee\n                displayTitleFee\n                displayRegistrationFee\n            }\n        }","operationName":"lotList"}'
+parameters: []
+headers:
+  - id: pair_7ec423748f8243e3bba82bb00329191a
+    name: Content-Type
+    value: application/json
+authentication:
+  token: f6HAqPdP2ogwMGE3ODY3ZC0zMTExLTRhOGQtODYzYy1hZjRlNWQ1YmQxODkyNjU4MzUzODU=
+  type: bearer
+metaSortKey: -1593273586428
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

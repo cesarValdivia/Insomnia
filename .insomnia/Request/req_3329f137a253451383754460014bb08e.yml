@@ -1,0 +1,30 @@
+_id: req_3329f137a253451383754460014bb08e
+type: Request
+parentId: fld_08866786178b46bfa547c80d66381f11
+modified: 1591048917255
+created: 1591048917255
+url: "{{url}}"
+name: Get Available Dealer Integrations
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n  getAvailableApiIntegrations
+    {\n    uniqueCode,\n    active,\n    bureaus
+    {\n      name,\n      defaultCheck,\n      active,\n    }\n  }\n}"}'
+parameters: []
+headers:
+  - id: pair_22bd81e22e474e5b82b9852dba83e097
+    name: Content-Type
+    value: application/json
+authentication:
+  token: "{{token}}"
+  type: bearer
+metaSortKey: -1573339515840.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

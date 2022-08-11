@@ -1,0 +1,28 @@
+_id: req_0450451fe805435b93f09c4eb29e2459
+type: Request
+parentId: fld_08866786178b46bfa547c80d66381f11
+modified: 1591048917240
+created: 1591048917240
+url: "{{url}}"
+name: Get setting available
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n  listAutoZoomCatalogs{\n    autoZoomLocations{\n      id,\n      name\n    }\n    autoZoomSalesPersons{\n      id,\n      name\n    }\n    autoZoomApprovers{\n      id,\n      name\n    }\n  }\n}"}'
+parameters: []
+headers:
+  - id: pair_de8acb6316a6431783525d60a69b43b3
+    name: Content-Type
+    value: application/json
+authentication:
+  token: "{{token}}"
+  type: bearer
+metaSortKey: -1572782619823
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

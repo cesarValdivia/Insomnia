@@ -1,0 +1,32 @@
+_id: req_7b7ee4802efc43a9abb43e201958e476
+type: Request
+parentId: fld_d8b526c327f548daa15c0729da773480
+modified: 1591048917292
+created: 1591048917292
+url: https://restapi.autozoom.com/token
+name: AutoZoom Token
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_f4f19425c0ce4885ac5e36121bc69314
+      name: grant_type
+      value: password
+    - id: pair_936d490961de40538e90fd4b9f661dab
+      name: username
+      value: dev_AutoMatrix
+    - id: pair_de5d8b0c228f4dd7b83877fb8020bb37
+      name: password
+      value: Matrix0719
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1572990317517.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

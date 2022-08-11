@@ -1,0 +1,28 @@
+_id: req_0485c929988040f989cb8be4c423777f
+type: Request
+parentId: fld_08866786178b46bfa547c80d66381f11
+modified: 1591048917248
+created: 1591048917248
+url: "{{url}}"
+name: Get AutoZoom Token
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"query{\n  getAutoZoomToken\n}"}'
+parameters: []
+headers:
+  - id: pair_45d3ea1dc06a44468a1a93f0be14e194
+    name: Content-Type
+    value: application/json
+authentication:
+  token: "{{token}}"
+  type: bearer
+metaSortKey: -1573331549547
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

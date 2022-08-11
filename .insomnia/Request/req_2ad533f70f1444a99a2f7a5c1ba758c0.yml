@@ -1,0 +1,29 @@
+_id: req_2ad533f70f1444a99a2f7a5c1ba758c0
+type: Request
+parentId: fld_08866786178b46bfa547c80d66381f11
+modified: 1591048917237
+created: 1591048917237
+url: "{{url}}"
+name: Get Selected lot information
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n  getAutoZoomLotConfig(lotName: \"West
+    Palm\")\n  {\n    lotName\n    locationId\n    salespersonId\n    approverId\n  }\n}"}'
+parameters: []
+headers:
+  - id: pair_de8acb6316a6431783525d60a69b43b3
+    name: Content-Type
+    value: application/json
+authentication:
+  token: "{{token}}"
+  type: bearer
+metaSortKey: -1572782619773
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,15 @@
+_id: fld_0318f28827494d2b96f6d3a5530cad6c
+type: RequestGroup
+parentId: fld_54174b28c7a2413889c847d7ae7844a4
+modified: 1591048917294
+created: 1591048917294
+name: Repossession and Customer Refund
+description: ""
+environment:
+  account_number: "27801"
+  cbid: "740"
+environmentPropertyOrder:
+  "&":
+    - account_number
+    - cbid
+metaSortKey: -1573091321814.25

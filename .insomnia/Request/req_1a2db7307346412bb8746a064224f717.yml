@@ -1,0 +1,28 @@
+_id: req_1a2db7307346412bb8746a064224f717
+type: Request
+parentId: fld_1a8dfdb55517414284e81cf7ae6375b0
+modified: 1591048917261
+created: 1591048917261
+url: "{{url}}"
+name: Get credit report by Id
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n  getReportURL(transactionId:\"700D000916187\"){\n    url\n  }\n}"}'
+parameters: []
+headers:
+  - id: pair_5ffd4713265a463aa96058a42cfb11fe
+    name: Content-Type
+    value: application/json
+authentication:
+  token: "{{token}}"
+  type: bearer
+metaSortKey: -1572369651333.8125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

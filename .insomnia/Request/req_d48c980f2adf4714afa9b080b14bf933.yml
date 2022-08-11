@@ -1,0 +1,23 @@
+_id: req_d48c980f2adf4714afa9b080b14bf933
+type: Request
+parentId: fld_0c1b74eaa2874bfea11e65e52eda7fb0
+modified: 1660234353009
+created: 1602014359568
+url: "{{ base_url }}/api/contracttemplates"
+name: GetContractTemplates
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{token}}"
+metaSortKey: -1602014359568
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

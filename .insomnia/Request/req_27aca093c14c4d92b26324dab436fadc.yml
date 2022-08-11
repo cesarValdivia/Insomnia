@@ -1,0 +1,29 @@
+_id: req_27aca093c14c4d92b26324dab436fadc
+type: Request
+parentId: fld_0c1b74eaa2874bfea11e65e52eda7fb0
+modified: 1593097896214
+created: 1591048917280
+url: "{{base_url}}/api/loans/payments/amount"
+name: Get Payment Amount
+description: ""
+method: GET
+body: {}
+parameters:
+  - description: ""
+    id: pair_31111421af1440a5af26ac9a5d4105ed
+    multiline: application/json
+    name: Settings
+    type: text
+    value: '{"SalesTax":"751.15","DealType":"LEASE","FirstPaymentDate":"2020-06-25","SalesTaxDeferred":"true","Terms":"86","Frequency":"Monthly","FinanceAmount":"10000.00","InterestRate":"40800.0","ResidualValue":"100.00","CompoundingDays":"365","LoanDate":"2020-06-25"}'
+headers: []
+authentication:
+  token: "{{token}}"
+  type: bearer
+metaSortKey: -1573158677071
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,75 @@
+_id: req_e12f783d81344bf283d5cdb03898b05f
+type: Request
+parentId: fld_0cf29c76df47435db3fd985f1a6e909b
+modified: 1660236276167
+created: 1609277094497
+url: https://secureclose.automatrix.com/SecureClose
+name: Create PresentationId
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - type: text
+      name: Presentation
+      disabled: false
+      value: '{"DMSGUID":"bf76ec49-7b4b-4945-9cb1-6696fdba9db1","CompanyCode":"90","SubCompanyCode":"1","ContractCode":"6935175","Files":[{"FileName":"AMX
+        - GPS
+        Addendum.pdf","MapID":"811ba2e0-7dac-46f7-a86a-310f12953f5f"},{"FileName":"AMX
+        - Arbitration
+        Agreement.pdf","MapID":"5ace42e1-387d-4f0d-8caa-fc72e3740494"},{"FileName":"AMX
+        - MasterCars - AVP Limited
+        Warranty.pdf","MapID":"86defdcd-8d6b-429a-86cd-3bf2a89c536f"},{"FileName":"AMX
+        - MasterCars - Bailment
+        Agreement.pdf","MapID":"27fd7bea-5a01-4a60-bdf7-eac0d8172973"}],"Buyer":{"FirstName":"Robert","LastName":"Weaver","Address":"1438
+        Arthur Langford Jr. Pl. SW Apt
+        5","City":"Atlanta","State":"GA","Zip":"30315","Email":"robertlee1220@gmail.com"},"TotalFile":4}'
+      id: pair_93fcc521d6f842e6bc722b00e6b847c2
+      multiline: application/json
+    - type: text
+      name: PreviousPresentationId
+      disabled: false
+      value: KPFF8KDG
+      id: pair_d3d3d142702d4cad8194d4c147c9a62b
+    - name: Files
+      value: ""
+      description: ""
+      id: pair_55d67fc3a13b44e3ba74a255d8f37507
+      type: file
+      fileName: /Users/developer/Desktop/AMX - GPS Addendum.pdf
+      disabled: false
+    - name: Files
+      value: ""
+      description: ""
+      id: pair_f08fe19c6c14460eb7162edfc9fedcd7
+      type: file
+      fileName: /Users/developer/Desktop/AMX - Arbitration Agreement.pdf
+      disabled: false
+    - name: Files
+      value: ""
+      description: ""
+      id: pair_6ece79b0c9aa4c5ea4eb7db316548723
+      type: file
+      disabled: false
+      fileName: /Users/developer/Desktop/AMX - MasterCars - AVP Limited Warranty.pdf
+    - name: Files
+      value: ""
+      description: ""
+      id: pair_ac123be4bcbb45599c4cd2b2a0d0f902
+      type: file
+      fileName: /Users/developer/Desktop/AMX - MasterCars - Bailment Agreement.pdf
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: db3OIsj+BXE9NZDy0t8W3TcNekrF+2d/1sFnWG4HnV8TZY30iTOdtVWJG8abWvB1GlOgJuQZdcF2Luqm/hccMw==
+  prefix: ""
+metaSortKey: -1647496457815.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

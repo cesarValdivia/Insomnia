@@ -1,0 +1,41 @@
+_id: req_e20b7493f2094af2974378aa5bcd3d95
+type: Request
+parentId: fld_a56b5ac2c1cc47c98448b7b4ac28edde
+modified: 1605111130989
+created: 1591048917271
+url: "{{url}}"
+name: DecodeVIN
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n  decodeVin(vin: \"1FTYR10U31TA63594\", stockNumber: 117266,
+    trim: null)
+    {\n    year\n    make\n    model\n    trim\n    bodyStyle\n    engines\n    cityMPG\n    highwayMPG\n    image\n    interiorColor
+    {\n      colorCode\n      colorName\n    }\n    exteriorColor
+    {\n      colorCode\n      colorName\n      rgbValue\n    }\n    standardEquipment
+    {\n      equipmentDescription\n      equipmentGroupDescription\n      equipmentGroupId\n      installed\n      equipmentId\n      defaultInstalled\n    }\n    optionalEquipment
+    {\n      equipmentDescription\n      equipmentGroupDescription\n      equipmentGroupId\n      installed\n      equipmentId\n      defaultInstalled\n    }\n    exteriorColors
+    {\n      colorCode\n      colorName\n      rgbValue\n    }\n    interiorColors
+    {\n      colorCode\n      colorName\n    }\n    genericColors
+    {\n      colorName\n    }\n    additionalSpec
+    {\n      specTitle\n      specDescription\n    }\n    alreadyDecoded\n  }\n}\n"}'
+parameters:
+  - id: pair_058da58abc8f4eefb50568339c78537c
+    name: ""
+    value: ""
+headers:
+  - id: pair_9dbe6d22792246cd9cb3edd6c73a41d7
+    name: Content-Type
+    value: application/json
+authentication:
+  token: "{{token}}"
+  type: bearer
+metaSortKey: -1570639846231.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

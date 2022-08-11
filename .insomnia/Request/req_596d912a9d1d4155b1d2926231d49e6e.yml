@@ -1,0 +1,31 @@
+_id: req_596d912a9d1d4155b1d2926231d49e6e
+type: Request
+parentId: fld_49acc37d2d5441e8a9b87e3b53fdd2d4
+modified: 1591048917275
+created: 1591048917275
+url: "{{url}}"
+name: NEO
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"{\n  processNeoApplication\n}"}'
+parameters:
+  - id: pair_058da58abc8f4eefb50568339c78537c
+    name: ""
+    value: ""
+headers:
+  - id: pair_9dbe6d22792246cd9cb3edd6c73a41d7
+    name: Content-Type
+    value: application/json
+authentication:
+  token: "{{token}}"
+  type: bearer
+metaSortKey: -1570639796249.3125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

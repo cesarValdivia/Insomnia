@@ -1,0 +1,25 @@
+_id: req_b6ca238be0304c47bf397065ff499180
+type: Request
+parentId: fld_0318f28827494d2b96f6d3a5530cad6c
+modified: 1591048917303
+created: 1591048917303
+url: "{{base_url}}/api/loans/{{account_number}}/CustomerRefundBalance"
+name: Get Customer Refund Balance
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  disabled: false
+  prefix: ""
+  token: "{{token}}"
+  type: bearer
+metaSortKey: -1589210819724
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,539 @@
+_id: req_1455b006e59c4fb492aba56a93a91c30
+type: Request
+parentId: fld_a56b5ac2c1cc47c98448b7b4ac28edde
+modified: 1591048917272
+created: 1591048917272
+url: "{{url}}"
+name: CreateEquipment
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"mutation createEquipment
+    {\n  createEquipment(\n    stockNumber: 99627,\n    trim:
+    \"\",\n    isEditing: true,\n    decodedStyle: \"Sport
+    Utility\"\n,interiorColor: {\ncolorCode: null\ncolorName:
+    \"BLUE\"\n    }\n,exteriorColor: {\ncolorCode: null\ncolorName:
+    \"GOLD\"\nrgbValue: null\n}\n,standardEquipment:
+    [\n      {\n        equipmentDescription: \"Engine, 2.4L DOHC 4-cylinder
+    SIDI (Spark Ignition Direct Injection) with VVT (Variable Valve Timing)(182
+    hp [135.7 kW] @ 6700 rpm, 172 lb-ft [232.2 N-m] @ 4900
+    rpm)\"\n        equipmentGroupDescription:
+    \"MECHANICAL\"\n        equipmentGroupId: 1236\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"Axle, 3.23 final
+    drive ratio (Requires 1LH26 model and (LEA) 2.4L DOHC 4-cylinder SIDI
+    engine.)\"\n        equipmentGroupDescription:
+    \"MECHANICAL\"\n        equipmentGroupId: 1236\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"GVWR, 4960 lbs. (2250
+    kg) (Requires front-wheel drive vehicles and (LEA) 2.4L DOHC 4-cylinder SIDI
+    engine.)\"\n        equipmentGroupDescription:
+    \"MECHANICAL\"\n        equipmentGroupId: 1236\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"Alternator, 120
+    amps\"\n        equipmentGroupDescription:
+    \"MECHANICAL\"\n        equipmentGroupId: 1236\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"Battery, maintenance
+    free with rundown protection, 525 CCA\"\n        equipmentGroupDescription:
+    \"MECHANICAL\"\n        equipmentGroupId: 1236\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"Drivetrain,
+    front-wheel drive\"\n        equipmentGroupDescription:
+    \"MECHANICAL\"\n        equipmentGroupId: 1236\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"Suspension, front
+    independent MacPherson strut with stabilizer bar, optimally-tuned shocks and
+    hydraulic-ride bushings in front control
+    arms\"\n        equipmentGroupDescription:
+    \"MECHANICAL\"\n        equipmentGroupId: 1236\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"Suspension, rear
+    independent multi-link with hydraulic rear trailing arm links and stabilizer
+    bar\"\n        equipmentGroupDescription:
+    \"MECHANICAL\"\n        equipmentGroupId: 1236\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"Suspension, Refined
+    Ride\"\n        equipmentGroupDescription:
+    \"MECHANICAL\"\n        equipmentGroupId: 1236\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"Brakes, 4-wheel
+    antilock, 4-wheel disc\"\n        equipmentGroupDescription:
+    \"MECHANICAL\"\n        equipmentGroupId: 1236\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"Exhaust,
+    single\"\n        equipmentGroupDescription:
+    \"MECHANICAL\"\n        equipmentGroupId: 1236\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"Tire, compact spare
+    with steel wheel\"\n        equipmentGroupDescription:
+    \"EXTERIOR\"\n        equipmentGroupId: 1176\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"Luggage rack side
+    rails, roof-mounted, Charcoal\"\n        equipmentGroupDescription:
+    \"EXTERIOR\"\n        equipmentGroupId: 1176\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"Bumpers, front and
+    rear body-color with Charcoal lowers\"\n        equipmentGroupDescription:
+    \"EXTERIOR\"\n        equipmentGroupId: 1176\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"Moldings, Charcoal
+    lower rocker\"\n        equipmentGroupDescription:
+    \"EXTERIOR\"\n        equipmentGroupId: 1176\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"Grille, Charcoal with
+    chrome surround\"\n        equipmentGroupDescription:
+    \"EXTERIOR\"\n        equipmentGroupId: 1176\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"Headlamps, halogen
+    composite with automatic exterior lamp
+    control\"\n        equipmentGroupDescription:
+    \"EXTERIOR\"\n        equipmentGroupId: 1176\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"Glass, deep-tinted
+    (all windows except light-tinted glass on windshield and driver- and front
+    passenger-side glass)\"\n        equipmentGroupDescription:
+    \"EXTERIOR\"\n        equipmentGroupId: 1176\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"Wipers, front
+    variable-speed, intermittent with
+    washer.\"\n        equipmentGroupDescription:
+    \"EXTERIOR\"\n        equipmentGroupId: 1176\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"Wiper, rear
+    variable-speed, intermittent with
+    washer\"\n        equipmentGroupDescription:
+    \"EXTERIOR\"\n        equipmentGroupId: 1176\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"Liftgate, rear manual
+    with fixed glass\"\n        equipmentGroupDescription:
+    \"EXTERIOR\"\n        equipmentGroupId: 1176\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"Door handles,
+    body-color\"\n        equipmentGroupDescription:
+    \"EXTERIOR\"\n        equipmentGroupId: 1176\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"Audio system feature,
+    80-watt 6-speaker system mid-range speakers in each door and tweeters in the
+    A-pillars. (Upgradeable to (UZ8) Pioneer premium 8-speaker sound
+    system.)\"\n        equipmentGroupDescription:
+    \"ENTERTAINMENT\"\n        equipmentGroupId: 10689\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"Antenna,
+    roof-mounted\"\n        equipmentGroupDescription:
+    \"ENTERTAINMENT\"\n        equipmentGroupId: 10689\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"Seat, rear, 2-way
+    fore/aft adjustment with 60/40 split seatback and 3-way
+    recline\"\n        equipmentGroupDescription:
+    \"INTERIOR\"\n        equipmentGroupId: 1220\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"Console, front center
+    with armrest and concealed storage\"\n        equipmentGroupDescription:
+    \"INTERIOR\"\n        equipmentGroupId: 1220\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"Armrest, rear center
+    with dual cup holders\"\n        equipmentGroupDescription:
+    \"INTERIOR\"\n        equipmentGroupId: 1220\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"Steering column, tilt
+    and telescopic\"\n        equipmentGroupDescription:
+    \"INTERIOR\"\n        equipmentGroupId: 1220\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"Instrumentation
+    includes speedometer, single trip odometer, fuel level, engine temperature
+    and tachometer\"\n        equipmentGroupDescription:
+    \"INTERIOR\"\n        equipmentGroupId: 1220\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"Compass display
+    included in Driver Information Center (DIC) (Not available with (UE0) OnStar
+    delete.)\"\n        equipmentGroupDescription:
+    \"INTERIOR\"\n        equipmentGroupId: 1220\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"Windows, power with
+    Express-Down on all 4 doors\"\n        equipmentGroupDescription:
+    \"INTERIOR\"\n        equipmentGroupId: 1220\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"Rear Vision
+    Camera\"\n        equipmentGroupDescription:
+    \"INTERIOR\"\n        equipmentGroupId: 1220\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"Air conditioning,
+    manual climate control\"\n        equipmentGroupDescription:
+    \"INTERIOR\"\n        equipmentGroupId: 1220\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"Defogger, rear-window
+    electric\"\n        equipmentGroupDescription:
+    \"INTERIOR\"\n        equipmentGroupId: 1220\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"Cupholders, 2 front
+    in center console and 2 rear in center armrest with 1 bottle holder in each
+    door\"\n        equipmentGroupDescription:
+    \"INTERIOR\"\n        equipmentGroupId: 1220\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"Power outlets, 4
+    auxiliary with covers, 12-volt includes 1 front of console, 1 in console, 1
+    in back of console and 1 in cargo
+    area.\"\n        equipmentGroupDescription:
+    \"INTERIOR\"\n        equipmentGroupId: 1220\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"Mirror, inside
+    rearview manual day/night\"\n        equipmentGroupDescription:
+    \"INTERIOR\"\n        equipmentGroupId: 1220\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"Visors, driver and
+    front passenger illuminated vanity
+    mirrors\"\n        equipmentGroupDescription:
+    \"INTERIOR\"\n        equipmentGroupId: 1220\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"Assist handles, front
+    passenger and rear outboards\"\n        equipmentGroupDescription:
+    \"INTERIOR\"\n        equipmentGroupId: 1220\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"Map pocket, front
+    seatback, driver and front passenger\"\n        equipmentGroupDescription:
+    \"INTERIOR\"\n        equipmentGroupId: 1220\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"Lighting, interior
+    with theatre dimming, center-mounted dome, rear cargo area, dual front map
+    lights, ambient lighting on center stack surround, and center console
+    cupholders (Includes ambient lighting on instrument panel and center
+    console.)\"\n        equipmentGroupDescription:
+    \"INTERIOR\"\n        equipmentGroupId: 1220\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"Brakes, brake
+    assist\"\n        equipmentGroupDescription:
+    \"SAFETY\"\n        equipmentGroupId: 1343\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"Brakes, Hill
+    Start-Assist (HAS)\"\n        equipmentGroupDescription:
+    \"SAFETY\"\n        equipmentGroupId: 1343\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"Daytime Running
+    Lamps\"\n        equipmentGroupDescription:
+    \"SAFETY\"\n        equipmentGroupId: 1343\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"OnStar, 6 months of
+    Directions and Connections plan includes Automatic Crash Response, Stolen
+    Vehicle Assistance, Roadside Assistance and Turn-by-Turn Navigation (Visit
+    onstar.com for coverage map, details and system limitations. Services vary
+    by model and conditions.)\"\n        equipmentGroupDescription:
+    \"SAFETY\"\n        equipmentGroupId: 1343\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"Safety belts 3-point,
+    driver and right-front passenger, height-adjustable includes
+    pretensioners\"\n        equipmentGroupDescription:
+    \"SAFETY\"\n        equipmentGroupId: 1343\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"Safety belts,
+    3-point, rear, all seating positions\"\n        equipmentGroupDescription:
+    \"SAFETY\"\n        equipmentGroupId: 1343\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"LATCH system (Lower
+    Anchors and Top tethers for CHildren), for child safety
+    seats\"\n        equipmentGroupDescription:
+    \"SAFETY\"\n        equipmentGroupId: 1343\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      }]\n,optionalEquipment:
+    [\n      {\n        equipmentDescription: \"EMISSIONS, FEDERAL
+    REQUIREMENTS\"\n        equipmentGroupDescription:
+    \"EMISSIONS\"\n        equipmentGroupId: 1156\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"ENGINE, 2.4L DOHC
+    4-CYLINDER SIDI (SPARK IGNITION DIRECT
+    INJECTION)\"\n        equipmentGroupDescription:
+    \"ENGINE\"\n        equipmentGroupId: 1160\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"GVWR, 4960 LBS. (2250
+    KG)\"\n        equipmentGroupDescription:
+    \"GVWR\"\n        equipmentGroupId: 1212\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"TRANSMISSION, 6-SPEED
+    AUTOMATIC WITH OVERDRIVE\"\n        equipmentGroupDescription:
+    \"TRANSMISSION\"\n        equipmentGroupId: 1379\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"AXLE, 3.23 FINAL
+    DRIVE RATIO\"\n        equipmentGroupDescription:
+    \"AXLE\"\n        equipmentGroupId: 1108\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"LT PREFERRED
+    EQUIPMENT GROUP\"\n        equipmentGroupDescription: \"PREFERRED EQUIPMENT
+    GROUP\"\n        equipmentGroupId: 1292\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"WHEELS, 17\\\" (43.2
+    CM) ALUMINUM\"\n        equipmentGroupDescription:
+    \"WHEELS\"\n        equipmentGroupId: 1397\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"TIRES, P225/65R17
+    ALL-SEASON, BLACKWALL\"\n        equipmentGroupDescription:
+    \"TIRES\"\n        equipmentGroupId: 1374\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"TUNGSTEN
+    METALLIC\"\n        equipmentGroupDescription:
+    \"PAINT\"\n        equipmentGroupId: 1256\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"SEATS, DELUXE FRONT
+    BUCKET\"\n        equipmentGroupDescription: \"SEAT
+    TYPE\"\n        equipmentGroupId: 1348\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"JET BLACK, PREMIUM
+    CLOTH\"\n        equipmentGroupDescription: \"SEAT
+    TRIM\"\n        equipmentGroupId: 1347\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"AUDIO SYSTEM,
+    CHEVROLET MYLINK RADIO, 7\\\" DIAGONAL COLOR TOUCH-SCREEN DISPLAY
+    AM/FM/SIRIUSXM STEREO\"\n        equipmentGroupDescription:
+    \"RADIO\"\n        equipmentGroupId: 1301\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"LPO, PROTECTION
+    PACKAGE\"\n        equipmentGroupDescription: \"ADDITIONAL
+    EQUIPMENT\"\n        equipmentGroupId: 10750\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"LICENSE PLATE
+    BRACKET, FRONT\"\n        equipmentGroupDescription: \"ADDITIONAL
+    EQUIPMENT\"\n        equipmentGroupId: 10750\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      },      {\n        equipmentDescription: \"FLOOR MATS, NOT
+    DESIRED\"\n        equipmentGroupDescription: \"ADDITIONAL
+    EQUIPMENT\"\n        equipmentGroupId: 10750\n        installed:
+    true\n        equipmentId: null\n        defaultInstalled:
+    true\n      }]\n,additionalSpec: [\n      {\n        specTitle: \"Vehicle
+    Name\"\n        specDescription: \"Chevrolet Equinox
+    N/A\"\n      },      {\n        specTitle: \"Body
+    Style\"\n        specDescription: \"Sport Utility Vehicle
+    N/A\"\n      },      {\n        specTitle:
+    \"Drivetrain\"\n        specDescription: \"Front Wheel Drive
+    N/A\"\n      },      {\n        specTitle: \"EPA
+    Classification\"\n        specDescription: \"2WD Sport Utility Vehicle
+    N/A\"\n      },      {\n        specTitle: \"Passenger
+    Capacity\"\n        specDescription: \"5
+    N/A\"\n      },      {\n        specTitle: \"Passenger
+    Volume\"\n        specDescription: \"99.7
+    ft³\"\n      },      {\n        specTitle: \"Base Curb
+    Weight\"\n        specDescription: \"3758 lbs Range: 3758lbs -
+    3922lbs\"\n      },      {\n        specTitle: \"EPA Greenhouse Gas
+    Score\"\n        specDescription: \"6 (2012)
+    N/A\"\n      },      {\n        specTitle: \"Fuel Economy
+    Est-Combined\"\n        specDescription: \"26 MPG Range: 20MPG -
+    26MPG\"\n      },      {\n        specTitle: \"EPA Fuel Economy Est -
+    City\"\n        specDescription: \"22 MPG Range: 17MPG -
+    22MPG\"\n      },      {\n        specTitle: \"EPA Fuel Economy Est -
+    Hwy\"\n        specDescription: \"32 MPG Range: 24MPG -
+    32MPG\"\n      },      {\n        specTitle: \"Dead Weight Hitch - Max
+    Trailer Wt.\"\n        specDescription: \"1500 lbs Range: 1500lbs -
+    3500lbs\"\n      },      {\n        specTitle: \"Dead Weight Hitch - Max
+    Tongue Wt.\"\n        specDescription: \"150 lbs Range: 150lbs -
+    350lbs\"\n      },      {\n        specTitle: \"Wt Distributing Hitch - Max
+    Trailer Wt.\"\n        specDescription: \"1500 lbs Range: 1500lbs -
+    3500lbs\"\n      },      {\n        specTitle: \"Wt Distributing Hitch - Max
+    Tongue Wt.\"\n        specDescription: \"225 lbs Range: 225lbs -
+    525lbs\"\n      },      {\n        specTitle: \"Engine Order
+    Code\"\n        specDescription: \"LEA
+    N/A\"\n      },      {\n        specTitle: \"Engine
+    Type\"\n        specDescription: \"Gas/Ethanol I4
+    N/A\"\n      },      {\n        specTitle:
+    \"Displacement\"\n        specDescription: \"2.4/145
+    N/A\"\n      },      {\n        specTitle: \"Fuel
+    System\"\n        specDescription: \"Direct Injection
+    N/A\"\n      },      {\n        specTitle: \"SAE Net Horsepower @
+    RPM\"\n        specDescription: \"182 @ 6700
+    N/A\"\n      },      {\n        specTitle: \"SAE Net Torque @
+    RPM\"\n        specDescription: \"172 @ 4900
+    N/A\"\n      },      {\n        specTitle: \"Trans Order
+    Code\"\n        specDescription: \"MX0
+    N/A\"\n      },      {\n        specTitle: \"Trans
+    Type\"\n        specDescription: \"6
+    N/A\"\n      },      {\n        specTitle: \"Trans Description
+    Cont.\"\n        specDescription: \"Automatic
+    N/A\"\n      },      {\n        specTitle: \"Trans Description Cont.
+    Again\"\n        specDescription: \"NO
+    DATA\"\n      },      {\n        specTitle: \"First Gear Ratio
+    (:1)\"\n        specDescription: \"4.48
+    N/A\"\n      },      {\n        specTitle: \"Second Gear Ratio
+    (:1)\"\n        specDescription: \"2.87
+    N/A\"\n      },      {\n        specTitle: \"Third Gear Ratio
+    (:1)\"\n        specDescription: \"1.84
+    N/A\"\n      },      {\n        specTitle: \"Fourth Gear Ratio
+    (:1)\"\n        specDescription: \"1.41
+    N/A\"\n      },      {\n        specTitle: \"Fifth Gear Ratio
+    (:1)\"\n        specDescription: \"1.00
+    N/A\"\n      },      {\n        specTitle: \"Sixth Gear Ratio
+    (:1)\"\n        specDescription: \"0.74
+    N/A\"\n      },      {\n        specTitle: \"Reverse Ratio
+    (:1)\"\n        specDescription: \"2.88
+    N/A\"\n      },      {\n        specTitle: \"Clutch
+    Size\"\n        specDescription: \"NO
+    DATA\"\n      },      {\n        specTitle: \"Final Drive Axle Ratio
+    (:1)\"\n        specDescription: \"3.23 N/A Range: 2.77N/A -
+    3.23N/A\"\n      },      {\n        specTitle: \"Transfer Case Gear Ratio
+    (:1), High\"\n        specDescription: \"NO
+    DATA\"\n      },      {\n        specTitle: \"Transfer Case Gear Ratio (:1),
+    Low\"\n        specDescription: \"NO
+    DATA\"\n      },      {\n        specTitle: \"Cold Cranking Amps @ 0° F
+    (Primary)\"\n        specDescription: \"525 N/A Range: 525N/A -
+    660N/A\"\n      },      {\n        specTitle: \"Tons/yr of CO2 Emissions @
+    15K mi/year\"\n        specDescription: \"7.1 N/A Range: 7.1N/A -
+    9.1N/A\"\n      },      {\n        specTitle: \"Maximum Alternator Capacity
+    (amps)\"\n        specDescription: \"120 N/A Range: 120N/A -
+    155N/A\"\n      },      {\n        specTitle: \"Total Cooling System
+    Capacity\"\n        specDescription: \"8.9
+    qts\"\n      },      {\n        specTitle: \"Suspension Type -
+    Front\"\n        specDescription: \"MacPherson strut
+    N/A\"\n      },      {\n        specTitle: \"Suspension Type -
+    Rear\"\n        specDescription: \"Multi link
+    N/A\"\n      },      {\n        specTitle: \"Suspension Type - Front
+    (Cont.)\"\n        specDescription: \"NO
+    DATA\"\n      },      {\n        specTitle: \"Suspension Type - Rear
+    (Cont.)\"\n        specDescription: \"NO
+    DATA\"\n      },      {\n        specTitle: \"Shock Absorber Diameter -
+    Front\"\n        specDescription: \"N/A
+    mm\"\n      },      {\n        specTitle: \"Shock Absorber Diameter -
+    Rear\"\n        specDescription: \"N/A
+    mm\"\n      },      {\n        specTitle: \"Stabilizer Bar Diameter -
+    Front\"\n        specDescription: \"NO
+    DATA\"\n      },      {\n        specTitle: \"Stabilizer Bar Diameter -
+    Rear\"\n        specDescription: \"- TBD -
+    in\"\n      },      {\n        specTitle: \"Front Tire Order
+    Code\"\n        specDescription: \"QYZ
+    N/A\"\n      },      {\n        specTitle: \"Rear Tire Order
+    Code\"\n        specDescription: \"QYZ
+    N/A\"\n      },      {\n        specTitle: \"Spare Tire Order
+    Code\"\n        specDescription: \"N/A
+    N/A\"\n      },      {\n        specTitle: \"Front Tire
+    Size\"\n        specDescription: \"P225/65R17
+    N/A\"\n      },      {\n        specTitle: \"Rear Tire
+    Size\"\n        specDescription: \"P225/65R17
+    N/A\"\n      },      {\n        specTitle: \"Spare Tire
+    Size\"\n        specDescription: \"Compact
+    N/A\"\n      },      {\n        specTitle: \"Front Wheel
+    Size\"\n        specDescription: \"17 x - TBD -
+    in\"\n      },      {\n        specTitle: \"Rear Wheel
+    Size\"\n        specDescription: \"17 x - TBD -
+    in\"\n      },      {\n        specTitle: \"Spare Wheel
+    Size\"\n        specDescription: \"Compact
+    in\"\n      },      {\n        specTitle: \"Front Wheel
+    Material\"\n        specDescription: \"Aluminum
+    N/A\"\n      },      {\n        specTitle: \"Rear Wheel
+    Material\"\n        specDescription: \"Aluminum
+    N/A\"\n      },      {\n        specTitle: \"Spare Wheel
+    Material\"\n        specDescription: \"Steel
+    N/A\"\n      },      {\n        specTitle: \"Steering
+    Type\"\n        specDescription: \"Pwr
+    N/A\"\n      },      {\n        specTitle: \"Steering Ratio (:1),
+    Overall\"\n        specDescription: \"18.1
+    N/A\"\n      },      {\n        specTitle: \"Lock to Lock Turns
+    (Steering)\"\n        specDescription: \"3.46 N/A Range: 2.8N/A -
+    3.46N/A\"\n      },      {\n        specTitle: \"Turning Diameter - Curb to
+    Curb\"\n        specDescription: \"40.0 ft Range: 40ft -
+    42.6ft\"\n      },      {\n        specTitle: \"Turning Diameter - Wall to
+    Wall\"\n        specDescription: \"- TBD -
+    ft\"\n      },      {\n        specTitle: \"Brake
+    Type\"\n        specDescription: \"Pwr
+    N/A\"\n      },      {\n        specTitle: \"Brake ABS
+    System\"\n        specDescription: \"4-Wheel
+    N/A\"\n      },      {\n        specTitle: \"Disc - Front (Yes
+    or   )\"\n        specDescription: \"Yes
+    N/A\"\n      },      {\n        specTitle: \"Disc - Rear (Yes
+    or   )\"\n        specDescription: \"Yes
+    N/A\"\n      },      {\n        specTitle: \"Front Brake Rotor Diam x
+    Thickness\"\n        specDescription: \"12.6 x 1.18
+    in\"\n      },      {\n        specTitle: \"Rear Brake Rotor Diam x
+    Thickness\"\n        specDescription: \"11.9 x 0.78
+    in\"\n      },      {\n        specTitle: \"Drum - Rear (Yes
+    or   )\"\n        specDescription: \"NO
+    DATA\"\n      },      {\n        specTitle: \"Rear Drum Diam x
+    Width\"\n        specDescription: \"NO
+    DATA\"\n      },      {\n        specTitle: \"Fuel Tank Capacity,
+    Approx\"\n        specDescription: \"18.8 gal Range: 18.8gal -
+    20.9gal\"\n      },      {\n        specTitle: \"Front Head
+    Room\"\n        specDescription: \"NO
+    DATA\"\n      },      {\n        specTitle: \"Front Leg
+    Room\"\n        specDescription: \"41.20
+    in\"\n      },      {\n        specTitle: \"Front Shoulder
+    Room\"\n        specDescription: \"55.80
+    in\"\n      },      {\n        specTitle: \"Front Hip
+    Room\"\n        specDescription: \"54.60
+    in\"\n      },      {\n        specTitle: \"Second Head
+    Room\"\n        specDescription: \"39.20
+    in\"\n      },      {\n        specTitle: \"Second Leg
+    Room\"\n        specDescription: \"39.90
+    in\"\n      },      {\n        specTitle: \"Second Shoulder
+    Room\"\n        specDescription: \"55.30
+    in\"\n      },      {\n        specTitle: \"Second Hip
+    Room\"\n        specDescription: \"51.10
+    in\"\n      },      {\n        specTitle:
+    \"Wheelbase\"\n        specDescription: \"112.50
+    in\"\n      },      {\n        specTitle: \"Length,
+    Overall\"\n        specDescription: \"187.80
+    in\"\n      },      {\n        specTitle: \"Width, Max w/o
+    mirrors\"\n        specDescription: \"72.50
+    in\"\n      },      {\n        specTitle: \"Height,
+    Overall\"\n        specDescription: \"66.30
+    in\"\n      },      {\n        specTitle: \"Track Width,
+    Front\"\n        specDescription: \"62.90
+    in\"\n      },      {\n        specTitle: \"Track Width,
+    Rear\"\n        specDescription: \"62.10
+    in\"\n      },      {\n        specTitle: \"Min Ground
+    Clearance\"\n        specDescription: \"6.90
+    in\"\n      },      {\n        specTitle: \"Rear Door Opening
+    Height\"\n        specDescription: \"28.80
+    in\"\n      },      {\n        specTitle: \"Rear Door Opening
+    Width\"\n        specDescription: \"- TBD -
+    in\"\n      },      {\n        specTitle: \"Cargo Area Length @ Floor to
+    Seat 1\"\n        specDescription: \"- TBD -
+    in\"\n      },      {\n        specTitle: \"Cargo Area Length @ Floor to
+    Seat 2\"\n        specDescription: \"- TBD -
+    in\"\n      },      {\n        specTitle: \"Cargo Area Length @ Floor to
+    Seat 3\"\n        specDescription: \"NO
+    DATA\"\n      },      {\n        specTitle: \"Cargo Area Width @
+    Beltline\"\n        specDescription: \"- TBD -
+    in\"\n      },      {\n        specTitle: \"Cargo Box Width @
+    Wheelhousings\"\n        specDescription: \"- TBD -
+    in\"\n      },      {\n        specTitle: \"Cargo Box (Area)
+    Height\"\n        specDescription: \"- TBD -
+    in\"\n      },      {\n        specTitle: \"Liftover
+    Height\"\n        specDescription: \"28.80
+    in\"\n      },      {\n        specTitle: \"Cargo Volume to Seat
+    1\"\n        specDescription: \"63.7
+    ft³\"\n      },      {\n        specTitle: \"Cargo Volume to Seat
+    2\"\n        specDescription: \"31.5
+    ft³\"\n      },      {\n        specTitle: \"Cargo Volume to Seat
+    3\"\n        specDescription: \"NO
+    DATA\"\n      },      {\n        specTitle: \"Country of
+    Origin\"\n        specDescription: \"NO
+    DATA\"\n      },      {\n        specTitle: \"Model
+    Group\"\n        specDescription: \"NO
+    DATA\"\n      },      {\n        specTitle: \"Vehicle
+    Segment\"\n        specDescription: \"NO
+    DATA\"\n      },      {\n        specTitle: \"Vehicle
+    Type\"\n        specDescription: \"NO
+    DATA\"\n      },      {\n        specTitle: \"Engine Displacement
+    Units\"\n        specDescription: \"NO
+    DATA\"\n      },      {\n        specTitle: \"Engine
+    Camshaft\"\n        specDescription: \"NO
+    DATA\"\n      },      {\n        specTitle: \"Engine Block
+    Type\"\n        specDescription: \"NO
+    DATA\"\n      },      {\n        specTitle: \"Engine Cylinder
+    Count\"\n        specDescription: \"NO
+    DATA\"\n      },      {\n        specTitle: \"Engine Valve
+    Count\"\n        specDescription: \"NO DATA\"\n      }]\n  )\n}"}'
+parameters:
+  - id: pair_058da58abc8f4eefb50568339c78537c
+    name: ""
+    value: ""
+headers:
+  - id: pair_9dbe6d22792246cd9cb3edd6c73a41d7
+    name: Content-Type
+    value: application/json
+authentication:
+  token: "{{token}}"
+  type: bearer
+metaSortKey: -1570639746266.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

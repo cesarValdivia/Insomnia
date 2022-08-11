@@ -1,0 +1,32 @@
+_id: req_216dd16ee41542b09b8202f2a8b05923
+type: Request
+parentId: fld_683873f207fc45b585e601b594a36cb7
+modified: 1660234345829
+created: 1593034115870
+url: "{{Lease_Amortization_API}}/api/loans/payments/amount?settings=%7B%0A%20%2\
+  0%22InterestRate%22%3A%2018%2C%0A%20%20%22LoanDate%22%3A%20%222020%2F12%2F1%2\
+  2%2C%0A%20%20%22Frequency%22%3A%20%22Weekly%22%2C%0A%20%20%22FinanceAmount%22\
+  %3A%2025000%2C%0A%20%20%22FirstPaymentDate%22%3A%20%222021%2F1%2F1%22%2C%0A%2\
+  0%20%22CompoundingDays%22%3A%20365%2C%0A%20%20%22Terms%22%3A%2050%2C%0A%20%20\
+  %22SalesTaxDeferred%22%3A%20%22True%22%2C%0A%20%20%22SalesTax%22%3A%200%2C%0A\
+  %20%20%22ResidualValue%22%3A%205000%2C%0A%20%20%22DealType%22%3A%20%22LHPH%22\
+  %0A%7D"
+name: LeasePayment Amount
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  disabled: false
+  prefix: ""
+  token: "{{token}}"
+  type: bearer
+metaSortKey: -1593034115870
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

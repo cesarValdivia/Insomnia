@@ -1,0 +1,42 @@
+_id: req_328c6b7b7a0d474592ec54a94bbe6a5a
+type: Request
+parentId: fld_0c1b74eaa2874bfea11e65e52eda7fb0
+modified: 1591048917282
+created: 1591048917282
+url: "{{base_url}}/api/loans/payments/roll"
+name: Make Roll Payment - Term
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_fcaae9d39814442397efa88a9454c910
+    multiline: application/json
+    name: setting
+    type: text
+    value: |-
+      {
+        "SalesTax":"498.32",
+        "FirstPaymentDate":"2019-10-23",
+        "SalesTaxDeferred":"false",
+        "Frequency":"Weekly",
+        "FinanceAmount":"10652.32",
+        "InterestRate":"18.99",
+        "PaymentAmount":"103",
+        "CompoundingDays":"365",
+        "LoanDate":"2019-10-16"
+      }
+  - id: pair_b53a78fa71cb4dc88bab11808874608f
+    name: type
+    value: term
+headers: []
+authentication:
+  token: "{{token}}"
+  type: bearer
+metaSortKey: -1573023995195.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

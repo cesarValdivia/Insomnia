@@ -1,0 +1,51 @@
+_id: req_b0d13a7680ac4fa2b40cba9c201ad6a9
+type: Request
+parentId: fld_d3715906dcb840db87a3c27ffd06616c
+modified: 1660236654374
+created: 1660235361547
+url: http://stage.secureclose.net/Services/DMSIntegrationSvc.svc
+name: Get Presentation Status
+description: ""
+method: POST
+body:
+  mimeType: text/xml
+  text: |-
+    
+    <soapenv:Envelope
+    	xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+    	<soapenv:Body>
+    		<tns:GetSecureCloseDocumentPresentationStatus
+    			xmlns:tns="http://tempuri.org/">
+    			<!-- mandatory -->
+    			<tns:xmlparam>
+    				<![CDATA[<Root>
+    					<DMSGUID>d02bf4dc-704d-4688-b926-7d725e23b119</DMSGUID>
+    					<CompanyCode>288</CompanyCode>
+    					<SubCompanyCode>6</SubCompanyCode>
+    					<ContractCode>6935033</ContractCode>
+    					<PresentationId Status="x">CJL5RCHD</PresentationId>
+    				</Root>]]>
+    			</tns:xmlparam>
+    		</tns:GetSecureCloseDocumentPresentationStatus>
+    	</soapenv:Body>
+    </soapenv:Envelope>
+parameters: []
+headers:
+  - name: SOAPAction
+    value: http://tempuri.org/IDMSIntegrationSvc/GetSecureCloseDocumentPresentationStatus
+    id: pair_b871aa606ee54e679f3199a47ccb1f7c
+  - name: Content-Type
+    value: text/xml
+    id: pair_7b322bafec244ae28dffdef541a52f0f
+  - name: Accept
+    value: application/xml
+    id: pair_35bb717cfa5d46b193346f390180c10e
+authentication: {}
+metaSortKey: -1660235361613
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

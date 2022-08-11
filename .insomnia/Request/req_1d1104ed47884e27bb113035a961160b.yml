@@ -1,0 +1,23 @@
+_id: req_1d1104ed47884e27bb113035a961160b
+type: Request
+parentId: fld_0c1b74eaa2874bfea11e65e52eda7fb0
+modified: 1591048917288
+created: 1591048917288
+url: "{{base_url}}/api/loans/82356/post"
+name: LHPH Post
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers: []
+authentication:
+  token: "{{token}}"
+  type: bearer
+metaSortKey: -1572956654107.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

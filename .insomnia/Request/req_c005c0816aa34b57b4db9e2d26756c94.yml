@@ -1,0 +1,30 @@
+_id: req_c005c0816aa34b57b4db9e2d26756c94
+type: Request
+parentId: fld_08866786178b46bfa547c80d66381f11
+modified: 1591048917250
+created: 1591048917250
+url: "{{url}}"
+name: Update Deal Score
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"mutation{\n  updateAutoZoomDealScore(\n    input:
+    {\n      accountNumber: 67642,\n      dealStructureScore:
+    1,\n      stabilityScore: 1,\n      totalScore: 1\n    }\n  )\n}"}'
+parameters: []
+headers:
+  - id: pair_22bd81e22e474e5b82b9852dba83e097
+    name: Content-Type
+    value: application/json
+authentication:
+  token: "{{token}}"
+  type: bearer
+metaSortKey: -1573342171272
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

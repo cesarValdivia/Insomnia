@@ -1,0 +1,25 @@
+_id: req_3af28d86e47141248ae7580a7cd032cd
+type: Request
+parentId: fld_0318f28827494d2b96f6d3a5530cad6c
+modified: 1591048917297
+created: 1591048917297
+url: "{{base_url}}/api/loans/CustomerRefund/check/{{cbid}}/transaction"
+name: Get Customer Refund Transaction
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  disabled: false
+  prefix: ""
+  token: "{{token}}"
+  type: bearer
+metaSortKey: -1589210819706
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

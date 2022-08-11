@@ -1,0 +1,26 @@
+_id: req_f101700405f54a9aa3109ad0d1f69997
+type: Request
+parentId: fld_0318f28827494d2b96f6d3a5530cad6c
+modified: 1591048917296
+created: 1591048917296
+url: "{{base_url}}/api/loans/{{account_number}}/CustomerRefund/check/validate?a\
+  mount=100&buyerCode=19612&refundType=Repo Refund&date=04-30-2020"
+name: Validate Customer Refund Check
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  disabled: false
+  prefix: ""
+  token: "{{token}}"
+  type: bearer
+metaSortKey: -1589210819696
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

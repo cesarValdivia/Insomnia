@@ -1,0 +1,29 @@
+_id: req_9b6b346bd7794d2eb8ee780145c561fb
+type: Request
+parentId: fld_08866786178b46bfa547c80d66381f11
+modified: 1591048917245
+created: 1591048917245
+url: "{{url}}"
+name: Get Scoresheet
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"query{\n  getAutoZoomScoreSheet(scoreSheetId:
+    602708743){\n    stabilityScore,\n    dealStructureScore,\n    totalScore\n  }\n}"}'
+parameters: []
+headers:
+  - id: pair_cc6d8cdcf3be4b489df29f5c6bfd54e4
+    name: Content-Type
+    value: application/json
+authentication:
+  token: "{{token}}"
+  type: bearer
+metaSortKey: -1573321602196
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_f368d05bd0474d17923245b2e84a234a
+type: Request
+parentId: fld_d8b526c327f548daa15c0729da773480
+modified: 1593810902454
+created: 1591048917291
+url: "{{base_url}}/api/oauth/login"
+name: OAuth
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  disabled: false
+  password: "@utoMatr!X$1"
+  type: basic
+  username: ctvadmin
+metaSortKey: -1572990317467.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

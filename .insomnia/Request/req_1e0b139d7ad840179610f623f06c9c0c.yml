@@ -1,0 +1,37 @@
+_id: req_1e0b139d7ad840179610f623f06c9c0c
+type: Request
+parentId: fld_0318f28827494d2b96f6d3a5530cad6c
+modified: 1591048917300
+created: 1591048917300
+url: "{{base_url}}/api/loans/{{account_number}}/CustomerRefund/Pay"
+name: Create Customer Refund Balance Transaction
+description: '* RefundType: string (one of: "Payment Refund", "Repo Refund")'
+method: POST
+body:
+  mimeType: ""
+  text: "{\r
+
+    \  \"CBID\": 740,\r
+
+    \  \"RefundType\": \"Repo Refund\",\r
+
+    \  \"Amount\": 100\r
+
+    }"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  disabled: false
+  prefix: ""
+  token: "{{token}}"
+  type: bearer
+metaSortKey: -1589210819713
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

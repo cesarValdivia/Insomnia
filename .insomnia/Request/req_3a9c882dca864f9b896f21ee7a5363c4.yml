@@ -1,0 +1,30 @@
+_id: req_3a9c882dca864f9b896f21ee7a5363c4
+type: Request
+parentId: fld_08866786178b46bfa547c80d66381f11
+modified: 1591048917242
+created: 1591048917242
+url: "{{url}}"
+name: Save lot configuration
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"mutation{\n  setAutoZoomLotConfig(\n    input:{\n      lotName:
+    \"west palm\"\n      locationId: 0,\n      salespersonId:
+    0,\n      approverId: 0\n    }\n  )\n}"}'
+parameters: []
+headers:
+  - id: pair_de8acb6316a6431783525d60a69b43b3
+    name: Content-Type
+    value: application/json
+authentication:
+  token: "{{token}}"
+  type: bearer
+metaSortKey: -1572782619873
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

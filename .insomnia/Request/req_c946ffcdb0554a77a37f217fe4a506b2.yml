@@ -1,0 +1,30 @@
+_id: req_c946ffcdb0554a77a37f217fe4a506b2
+type: Request
+parentId: fld_08866786178b46bfa547c80d66381f11
+modified: 1591048917243
+created: 1591048917243
+url: "{{url}}"
+name: Create Scoresheet
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: '{"query":"mutation{\n  createAutoZoomScoreSheet(\n    input:
+    {\n    lotName: \"MIAMI\",\n    accountNumber:
+    66702\n    }\n  )\n  {\n    scoreSheetId,\n    url\n  }\n}"}'
+parameters: []
+headers:
+  - id: pair_473c6cdd7ff44c9a963598fa9595d9e2
+    name: Content-Type
+    value: application/json
+authentication:
+  token: "{{token}}"
+  type: bearer
+metaSortKey: -1573320852685
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,55 @@
+_id: req_d6540db7447b43f694d23c0434adf6ce
+type: Request
+parentId: fld_d3715906dcb840db87a3c27ffd06616c
+modified: 1660235372321
+created: 1660235361563
+url: http://stage.secureclose.net/Services/DMSIntegrationSvc.svc
+name: GetSecureClosePresentationId
+description: ""
+method: POST
+body:
+  mimeType: text/xml
+  text: >-
+    
+    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+     <soapenv:Header>
+      <!-- The Security element should be removed if WS-Security is not enabled on the SOAP target-url -->
+      <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+       <wsse:UsernameToken>
+        <wsse:Username>string</wsse:Username>
+        <wsse:Password>string</wsse:Password>
+        <wsse:Nonce EncodingType="string">string</wsse:Nonce>
+        <wsu:Created>string</wsu:Created>
+       </wsse:UsernameToken>
+       <wsu:Timestamp wsu:Id="string">
+        <wsu:Created>string</wsu:Created>
+        <wsu:Expires>string</wsu:Expires>
+       </wsu:Timestamp>
+      </wsse:Security>
+     </soapenv:Header>
+     <soapenv:Body>
+      <tns:GetSecureClosePresentationId xmlns:tns="http://tempuri.org/"><!-- mandatory -->
+       <tns:xmlparam>string</tns:xmlparam>
+      </tns:GetSecureClosePresentationId>
+     </soapenv:Body>
+    </soapenv:Envelope>
+parameters: []
+headers:
+  - name: SOAPAction
+    value: http://tempuri.org/IDMSIntegrationSvc/GetSecureClosePresentationId
+    id: pair_eeebad9bee4843c1b768898756a04f97
+  - name: Content-Type
+    value: text/xml
+    id: pair_c2056dcd8edc479b8dad9f64ebb65c3e
+  - name: Accept
+    value: application/xml
+    id: pair_0c1298a021e24e31b8b63b009cce5d5c
+authentication: {}
+metaSortKey: -1660235361563
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

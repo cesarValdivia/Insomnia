@@ -1,0 +1,50 @@
+_id: req_eb4913478d02445ca78b4666b13507d5
+type: Request
+parentId: fld_0c1b74eaa2874bfea11e65e52eda7fb0
+modified: 1602014344341
+created: 1591048917287
+url: "{{base_url}}/api/loans/payments/apr"
+name: Get Regulation Z APR Amount
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_e70a5bf5b48046e0907d48138db12f5a
+    name: loanDate
+    value: 10/19/2019
+  - id: pair_1b8186cd6900499293913a7380c03c55
+    name: firstPaymentDue
+    value: 11/18/2019
+  - id: pair_ade451471ae14be6be5f43d71c2d5c3d
+    name: financeAmount
+    value: "15638.21"
+  - id: pair_e6a47ff7727a46ba89053efa6d59397f
+    name: term
+    value: "72"
+  - id: pair_a37c375992534dae9a9ca791eccf4fdd
+    name: paymentAmount
+    value: "244.59"
+  - id: pair_546c8c4dcc6640e499f0a5d76b4a42cc
+    name: frequency
+    value: Monthly
+  - id: pair_df6de44cc8d843ffb60fbe6d00beb7bb
+    name: oddPaymentDate
+    value: 10/18/2025
+  - id: pair_5aa1e491bd6344a1a1c61fe7bc043c59
+    name: oddPaymentAmount
+    value: "0"
+  - id: pair_526a0507ce3d41a6ab8d94b12f178861
+    name: compoundingDays
+    value: "365"
+headers: []
+authentication:
+  token: "{{token}}"
+  type: bearer
+metaSortKey: -1572956654157.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

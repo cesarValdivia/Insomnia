@@ -1,0 +1,21 @@
+_id: req_3358a635d60f476488f3337c1c0e295f
+type: Request
+parentId: fld_0c1b74eaa2874bfea11e65e52eda7fb0
+modified: 1591049224589
+created: 1591049224589
+url: "{{ base_url  }}/api/tasks/Expired?start=1&limit=15&assignedTo=12658"
+name: getExpiredTasks - Test-Dev
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1590129933249
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
